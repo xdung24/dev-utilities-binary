@@ -1,0 +1,7 @@
+services:
+  app:
+    image: dev-utilities
+    container_name: dev-utilities
+    build: .
+    ports:
+      - "3000:3000"
